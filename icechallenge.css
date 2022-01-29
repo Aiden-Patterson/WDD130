@@ -1,0 +1,31 @@
+body {
+  padding-left: 20%;
+  padding-right: 20%;
+  text-align: center;
+  color: white;
+  background-color: pink;
+}
+
+h1:hover {
+  color: black;
+}
+
+ol {
+  text-align: left;
+  color: black;
+}
+
+img{
+    max-width: 30%;
+}
+.quote{
+    padding-left: 25%;
+    padding-right: 25%;
+    font-size: 25px;
+}
+
+.bottom{
+    padding-left: 25%;
+    padding-right: 25%;
+    color: black;
+}
