@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Barlow+Condensed');
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -29,6 +31,8 @@ main section{
 
 body{
     background-color: #3752B3;
+    font-family: "Barlow Condensed";
+    font-size: 22px;
 }
 
 header{
@@ -49,6 +53,7 @@ nav a{
     background-color: #3752B3;
     color: white;
     text-decoration: none;
+    font-size: 18px;
 }
 
 .book:hover, .join:hover{
@@ -61,14 +66,18 @@ nav a{
 
 .msg h2{
     color: black;
+    font-family: "Raleway";
 }
 
 .msg p{
     color: black;
+    font-size: .8em;
 }
 
 .home-title{
     color:#1624C4;
+    font-family: "Raleway";
+    font-size: 2em;
 }
 
 .logo{
@@ -81,6 +90,7 @@ nav a{
 
 h4{
     color: black;
+    font-family: "Raleway";
 }
 
 footer{
