@@ -9,7 +9,7 @@
   <body>
     <header>
       <nav>
-        <a href="bestwords.html">Best Words</a>
+        <a href="wordlist.html">Word List</a>
       </nav>
       <a id="logo_link" href="index.html">
         <img class="logo" src="images/Helple logo.png" alt="Helple logo" />
@@ -19,6 +19,78 @@
       </nav>
     </header>
 
-    <footer></footer>
+    <main>
+      <img
+        class="wordleGame"
+        src="images/Wordle empty.png"
+        alt="Empty Wordle Board"
+      />
+      <p>
+        Wordle is a word guessing game. The game is to try and guess a random
+        word within six tries. While this may seem like a daunting task, it is
+        made easier by your previous guesses either confirming or disproving if
+        the letters in the word appear in the word you are trying to guess
+      </p>
+      <img
+        class="wordleGame"
+        src="images/Wordle 1 guess.png"
+        alt="Wordle board with one guess"
+      />
+      <!--it would be really cool to make a script here that cycles through all of the game steps-->
+      <p>
+        When a letter turns gray, that means that the letter does not appear in
+        the word you are trying to guess
+      </p>
+      <p>
+        When a letter turns yellow, that means that the letter does appear in
+        the word you are trying to guess, but not in that position
+      </p>
+      <p>
+        When a letter turns green, that means that the letter does appear in
+        that exact spot in the word you are trying to guess
+      </p>
+      <p>
+        If there are two of the same letters in the word, each letter will
+        change color on it's own. In this example, the word that is being
+        guessed has two of the letter 'b'b in it. because the player entered two
+        of the letter, they each change color based on where the 'b' is supposed
+        to be
+      </p>
+      <img
+        class="doubleLetter"
+        src="images/double letter yellow green.png"
+        alt="Wordle guess with two of the same letters"
+      />
+      <p>
+        If, however, you guess two letters but the final word only has one of
+        those letters, only one will be colored yellow or green and the other
+        one will be gray. This allows you to know that there is only one of that
+        letter used in the word
+      </p>
+      <img
+        class="doubleLetter"
+        src="images/double letter yellow gray.png"
+        alt="Wordle guess with two of the same letters"
+      />
+      <p>
+        Everyone recieves the same word to guess every day, and a new word will
+        not be chosen until the next day. This way, everyone who plays the game
+        will always have the same word to try to guess so you can challenge your
+        friends and family to play
+      </p>
+      <p>
+        The game will also keep track of how many times you have won, and how
+        many guesses it took you to guess each word. This is displayed at the
+        end of the game in a statistics page
+      </p>
+      <img id="stats" src="images/Wordle stats.png" alt="Wordle statistics" />
+      <p>
+        Within the settings, there is also an option for 'hard mode.' In this
+        mode, the game will not allow you to make guesses that don't include
+        letters you have already revealed. If we use the 'KEEPS' example from
+        above, we see that one 'E' is colored yellow. If we were playing in hard
+        mode, every guess afterwards would have to use the letter 'E' in it.
+      </p>
+    </main>
   </body>
 </html>
