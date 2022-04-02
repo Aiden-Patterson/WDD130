@@ -71,6 +71,10 @@ main div {
   max-width: 30%;
 }
 
+.list{
+margin-top: 80px;
+}
+
 
 * {box-sizing:border-box}
 
